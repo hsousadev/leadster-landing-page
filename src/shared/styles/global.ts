@@ -6,9 +6,11 @@ export const GlobalStyles = createGlobalStyle<any>`
     --Max-content-width: 1140px;
 
     --Blue: #1B7EFF;
-    --FontColor: #1C3C50;
+    --Gray: #C8D4DD;
     --LightBlue: #F0F8FF;
     --White: #F9F9F9;
+
+    --FontColor: #1C3C50;
   }
 
   html {
@@ -84,7 +86,6 @@ export const GlobalStyles = createGlobalStyle<any>`
   }
 
   body {
-    max-width: var(--Max-content-width);
     width: 100%;
     background: var(--White) !important;
     margin: 0;
@@ -97,32 +98,26 @@ export const GlobalStyles = createGlobalStyle<any>`
     margin: 0;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-style: normal;
-    color: var(--Gray);
   }
 
   h1 {
-    font-weight: 600;
-    font-size: 48px;
+    font-size: 90px;
   }
 
   h2 {
-    font-weight: 400;
-    font-size: 32px;
+    font-size: 48px;
   }
 
   h3 {
-    font-weight: 600;
-    font-size: 24px;
+    font-size: 18px;
   }
 
   h4 {
-    font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   p {
-    font-weight: 300;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   button {
