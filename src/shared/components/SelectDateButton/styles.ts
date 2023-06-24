@@ -19,6 +19,7 @@ export const Container = styled.div`
       gap: 8px;
 
       h3 {
+        transition: all 0.4s ease-in-out;
         font-weight: 500;
         color: var(--FontColor);
       }

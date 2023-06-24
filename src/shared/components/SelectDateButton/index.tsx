@@ -1,6 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
+
 import { useState } from "react";
-import { ArrowDown } from "../ArrowDown";
-import { ArrowUp } from "../ArrowUp";
+import ArrowDown from "@/shared/assets/icons/arrow-down.svg";
+import ArrowUp from "@/shared/assets/icons/arrow-up.svg";
 
 import { Container } from "./styles";
 
@@ -12,10 +15,14 @@ export function SelectDateButton() {
       <div className="content">
         <button onClick={() => setShowCalendar(!showCalendar)}>
           <h3>Data de Publicação</h3>
-          {showCalendar ? <ArrowUp /> : <ArrowDown />}
         </button>
         {showCalendar && (
-          <input type="date" name="select-date" id="select-date" />
+          <input
+            onChange={(e) => console.log("date", e.target.value)}
+            type="date"
+            name="select-date"
+            id="select-date"
+          />
         )}
       </div>
     </Container>

@@ -1,15 +1,18 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
-import { Container } from "./styles";
 
+import { VideoProps } from "@/shared/types/VideoProps";
 import Play from "@/shared/assets/icons/play.svg";
 
-interface VideoCardProps {
-  title: string;
-  thumbnail: string;
-}
+import { Container } from "./styles";
 
-export function VideoCard({ title, thumbnail }: VideoCardProps) {
+export function VideoCard({
+  title,
+  thumbnail,
+  url,
+  category,
+  date,
+}: VideoProps) {
   return (
     <Container>
       <div className="content">
