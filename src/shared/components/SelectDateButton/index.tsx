@@ -1,7 +1,7 @@
-/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 
 import { useState } from "react";
+
 import ArrowDown from "@/shared/assets/icons/arrow-down.svg";
 import ArrowUp from "@/shared/assets/icons/arrow-up.svg";
 
@@ -14,7 +14,14 @@ export function SelectDateButton() {
     <Container>
       <div className="content">
         <button onClick={() => setShowCalendar(!showCalendar)}>
-          <h3>Data de Publicação</h3>
+          <h3>
+            Data de Publicação{" "}
+            {showCalendar ? (
+              <Image src={ArrowUp} alt="" width={16} height={8} />
+            ) : (
+              <Image src={ArrowDown} alt="" width={16} height={8} />
+            )}
+          </h3>
         </button>
         {showCalendar && (
           <input

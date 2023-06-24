@@ -19,7 +19,6 @@ export const Container = styled.button`
 
     .thumbnail-content {
       width: 100%;
-      background-color: var(--Blue);
       border-radius: 16px 16px 0px 0px;
 
       display: flex;
@@ -36,6 +35,7 @@ export const Container = styled.button`
         transition: all 0.4s ease-in-out;
         width: 100%;
         height: 100%;
+        border-radius: 16px 16px 0px 0px;
       }
     }
 
@@ -52,6 +52,8 @@ export const Container = styled.button`
 
   .content:hover {
     .thumbnail-content {
+      background-color: var(--Blue);
+
       img.play {
         display: block;
       }

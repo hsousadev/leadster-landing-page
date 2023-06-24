@@ -1,6 +1,7 @@
 import { VideoCard } from "@/shared/components/VideoCard";
 import { ShortButton } from "@/shared/components/ShortButton";
 import { SelectDateButton } from "@/shared/components/SelectDateButton";
+import { Paginate } from "@/shared/components/Paginate";
 
 import videos from "../../../../../server/videos.json";
 
@@ -40,6 +41,11 @@ export default function VideoLibrary() {
           />
         ))}
       </div>
+
+      <Paginate
+        setPageNumber={setPageNumber}
+        pagesNumber={videos.pages.length}
+      />
     </Container>
   );
 }
