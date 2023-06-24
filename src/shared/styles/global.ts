@@ -8,7 +8,7 @@ export const GlobalStyles = createGlobalStyle<any>`
     --Blue: #1B7EFF;
     --Gray: #C8D4DD;
     --LightBlue: #F0F8FF;
-    --White: #F9F9F9;
+    --White: #FFF;
 
     --FontColor: #1C3C50;
   }
@@ -98,18 +98,19 @@ export const GlobalStyles = createGlobalStyle<any>`
     margin: 0;
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-style: normal;
+    letter-spacing: -0.32px;
   }
 
   h1 {
-    font-size: 90px;
-  }
-
-  h2 {
     font-size: 48px;
   }
 
-  h3 {
+  h2 {
     font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
   }
 
   h4 {

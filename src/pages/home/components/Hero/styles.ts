@@ -16,15 +16,15 @@ export const Container = styled.div`
     justify-content: center;
     flex-direction: column;
 
-    h2 {
+    h1 {
       color: var(--FontColor);
       font-weight: 400;
       margin-bottom: 8px;
     }
 
-    h3 {
+    h2 {
       color: var(--FontColor);
-      font-weight: 600;
+      font-weight: 500;
       padding: 0 32px;
 
       strong {
