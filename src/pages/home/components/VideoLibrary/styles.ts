@@ -25,8 +25,17 @@ export const Container = styled.div`
     }
 
     .filters {
-      align-items: center;
+      align-items: flex-start;
       justify-content: flex-start;
+      flex-direction: column;
+
+      .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        gap: 16px;
+      }
     }
 
     .date {
@@ -43,11 +52,11 @@ export const Container = styled.div`
   .videos-content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 28px;
 
     flex-wrap: wrap;
-    row-gap: 32px;
-    
+
     width: 100%;
     padding: 64px 0px;
 

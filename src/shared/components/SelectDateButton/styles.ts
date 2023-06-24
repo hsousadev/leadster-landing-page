@@ -32,21 +32,21 @@ export const Container = styled.div`
       color: var(--FontColor);
       border: 1px solid var(--FontColor);
     }
-  }
 
-  .content:hover {
-    button {
+    button.active {
+      background-color: var(--Blue);
+      border: 1px solid transparent;
+
+      h3 {
+        color: var(--White);
+      }
+    }
+
+    button.default:hover {
       border: 1px solid var(--Blue);
 
       h3 {
         color: var(--Blue);
-      }
-
-      svg {
-        path {
-          transition: all 0.4s ease-in-out;
-          fill: var(--Blue);
-        }
       }
     }
   }

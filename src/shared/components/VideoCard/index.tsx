@@ -21,7 +21,7 @@ export function VideoCard({
           <Image className="play" src={Play} alt="Video Thumbnail" />
         </div>
         <div className="title-content">
-          <h2>{title.length > 20 ? title.slice(0, 58) + "..." : title}</h2>
+          <h2>{title?.length > 20 ? title.slice(0, 58) + "..." : title}</h2>
         </div>
       </div>
     </Container>

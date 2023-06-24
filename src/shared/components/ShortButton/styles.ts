@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  .content {
+  .default {
     transition: all 0.4s ease-in-out;
 
     display: flex;
@@ -20,7 +20,7 @@ export const Container = styled.div`
     }
   }
 
-  .content:hover {
+  .default:hover {
     border: 1px solid var(--Blue);
 
     h3 {
@@ -28,7 +28,18 @@ export const Container = styled.div`
     }
   }
 
-  .content:focus {
+  .active {
+    transition: all 0.4s ease-in-out;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 8px 20px;
+
+    border: 1px solid transparent;
+    border-radius: 24px;
+
     background-color: var(--Blue);
     border: transparent;
 
