@@ -1,3 +1,4 @@
+import { VideoCard } from "@/shared/components/VideoCard";
 import { ShortButton } from "@/shared/components/ShortButton";
 import { SelectDateButton } from "@/shared/components/SelectDateButton";
 
@@ -19,6 +20,45 @@ export default function VideoLibrary() {
           <h3>Ordernar por</h3>
           <SelectDateButton />
         </div>
+      </div>
+
+      <div className="videos-content">
+        <VideoCard
+          thumbnail="https://i.ytimg.com/vi/yju8RTdhHQ0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDttmwOCYFrD9UsAY_LPKW7W9BUug"
+          title="Como aumentar sua Geração de Leads feat. Traktor"
+        />
+        <VideoCard
+          thumbnail="https://i.ytimg.com/vi/yju8RTdhHQ0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDttmwOCYFrD9UsAY_LPKW7W9BUug"
+          title="Como aumentar sua Geração de Leads feat. Traktor"
+        />
+        <VideoCard
+          thumbnail="https://i.ytimg.com/vi/yju8RTdhHQ0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDttmwOCYFrD9UsAY_LPKW7W9BUug"
+          title="Como aumentar sua Geração de Leads feat. Traktor"
+        />
+        <VideoCard
+          thumbnail="https://i.ytimg.com/vi/yju8RTdhHQ0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDttmwOCYFrD9UsAY_LPKW7W9BUug"
+          title="Como aumentar sua Geração de Leads feat. Traktor"
+        />
+        <VideoCard
+          thumbnail="https://i.ytimg.com/vi/yju8RTdhHQ0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDttmwOCYFrD9UsAY_LPKW7W9BUug"
+          title="Como aumentar sua Geração de Leads feat. Traktor"
+        />
+        <VideoCard
+          thumbnail="https://i.ytimg.com/vi/yju8RTdhHQ0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDttmwOCYFrD9UsAY_LPKW7W9BUug"
+          title="Como aumentar sua Geração de Leads feat. Traktor"
+        />
+        <VideoCard
+          thumbnail="https://i.ytimg.com/vi/yju8RTdhHQ0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDttmwOCYFrD9UsAY_LPKW7W9BUug"
+          title="Como aumentar sua Geração de Leads feat. Traktor"
+        />
+        <VideoCard
+          thumbnail="https://i.ytimg.com/vi/yju8RTdhHQ0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDttmwOCYFrD9UsAY_LPKW7W9BUug"
+          title="Como aumentar sua Geração de Leads feat. Traktor"
+        />
+        <VideoCard
+          thumbnail="https://i.ytimg.com/vi/yju8RTdhHQ0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDttmwOCYFrD9UsAY_LPKW7W9BUug"
+          title="Como aumentar sua Geração de Leads feat. Traktor"
+        />
       </div>
     </Container>
   );

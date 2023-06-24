@@ -16,7 +16,6 @@ export const Container = styled.div`
     justify-content: space-between;
     width: 100%;
 
-    border-bottom: 2px solid var(--Gray);
     padding-bottom: 24px;
 
     .filters,
@@ -39,6 +38,23 @@ export const Container = styled.div`
         color: var(--FontColor);
       }
     }
+  }
+
+  .videos-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+    row-gap: 32px;
+    
+    width: 100%;
+    padding: 64px 0px;
+
+    border-bottom: 2px solid var(--Gray);
+    border-top: 2px solid var(--Gray);
+
+    margin-bottom: 40px;
   }
 `;
 

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ArrowDown } from "../ArrowDown";
+import { ArrowUp } from "../ArrowUp";
 
 import { Container } from "./styles";
 
@@ -11,7 +12,7 @@ export function SelectDateButton() {
       <div className="content">
         <button onClick={() => setShowCalendar(!showCalendar)}>
           <h3>Data de Publicação</h3>
-          <ArrowDown />
+          {showCalendar ? <ArrowUp /> : <ArrowDown />}
         </button>
         {showCalendar && (
           <input type="date" name="select-date" id="select-date" />

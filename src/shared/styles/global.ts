@@ -129,5 +129,4 @@ export const GlobalStyles = createGlobalStyle<any>`
     background: transparent;
     padding: 0;
   }
-
 `;

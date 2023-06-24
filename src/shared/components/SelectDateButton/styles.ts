@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const Container = styled.div`
   transition: all 0.4s ease-in-out;
@@ -21,10 +21,6 @@ export const Container = styled.div`
       h3 {
         font-weight: 500;
         color: var(--FontColor);
-      }
-
-      svg {
-        transition: all 0.4s ease-in-out;
       }
     }
 
@@ -52,15 +48,6 @@ export const Container = styled.div`
           fill: var(--Blue);
         }
       }
-    }
-  }
-
-  .content:focus {
-    background-color: var(--Blue);
-    border: transparent;
-
-    h3 {
-      color: var(--White);
     }
   }
 `;
