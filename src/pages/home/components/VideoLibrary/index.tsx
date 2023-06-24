@@ -45,6 +45,7 @@ export default function VideoLibrary() {
       <Paginate
         setPageNumber={setPageNumber}
         pagesNumber={videos.pages.length}
+        pageNumberActive={pageNumber}
       />
     </Container>
   );

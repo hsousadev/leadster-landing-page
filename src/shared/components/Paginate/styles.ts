@@ -26,7 +26,13 @@ export const Container = styled.div`
       height: 42px;
     }
 
-    button:focus,
+    button.active {
+      border: 1px solid var(--Blue);
+      strong {
+        color: var(--Blue);
+      }
+    }
+
     button:hover {
       border: 1px solid var(--Blue);
       strong {
