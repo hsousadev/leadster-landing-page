@@ -3,7 +3,7 @@ import { SelectDateButton } from "@/shared/components/SelectDateButton";
 
 import { Container } from "./styles";
 
-export function VideoLibrary() {
+export default function VideoLibrary() {
   return (
     <Container>
       <div className="head-filters">

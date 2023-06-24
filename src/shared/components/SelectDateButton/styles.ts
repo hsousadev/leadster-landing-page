@@ -1,10 +1,6 @@
 import styled, { css } from "styled-components";
 
-interface ContainerProps {
-  showCalendar: boolean;
-}
-
-export const Container = styled.div<ContainerProps>`
+export const Container = styled.div`
   transition: all 0.4s ease-in-out;
 
   .content {
@@ -30,14 +26,6 @@ export const Container = styled.div<ContainerProps>`
       svg {
         transition: all 0.4s ease-in-out;
       }
-
-      ${(props) =>
-        props.showCalendar &&
-        css`
-          svg {
-            transform: rotate(180deg);
-          }
-        `}
     }
 
     input,

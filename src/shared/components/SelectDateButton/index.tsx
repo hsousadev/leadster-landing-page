@@ -7,7 +7,7 @@ export function SelectDateButton() {
   const [showCalendar, setShowCalendar] = useState(false);
 
   return (
-    <Container showCalendar={showCalendar}>
+    <Container>
       <div className="content">
         <button onClick={() => setShowCalendar(!showCalendar)}>
           <h3>Data de Publicação</h3>

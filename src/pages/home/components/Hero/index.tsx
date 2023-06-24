@@ -6,7 +6,7 @@ import MaisConversao from "@/shared/assets/icons/mais-conversao.svg";
 
 import { Container } from "./styles";
 
-export function Hero() {
+export default function Hero() {
   return (
     <Container>
       <div className="content">
