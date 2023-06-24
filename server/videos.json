@@ -2,63 +2,63 @@
   "pages": [
     [
       {
-        "url": "https://www.youtube.com/watch?v=SapejfZ5oSM",
+        "url": "https://www.youtube.com/embed/SapejfZ5oSM",
         "title": "Como as empresas podem se preparar para um futuro sem cookies?",
         "thumbnail": "https://i.ytimg.com/vi/SapejfZ5oSM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDXqRK5ltxqKr1--CpLJNZ1-NMRdw",
         "category": "agencia",
         "date": "2023-03-30"
       },
       {
-        "url": "https://www.youtube.com/watch?v=XIBdJjahUkM",
+        "url": "https://www.youtube.com/embed/XIBdJjahUkM",
         "title": "Como Criar um Chatbot Grátis em Menos de 10 Minutos com a Leadster",
         "thumbnail": "https://i.ytimg.com/vi/XIBdJjahUkM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDYgXvZ72AMVhmuqglKKUH-uVjM6Q",
         "category": "chatbot",
         "date": "2022-11-02"
       },
       {
-        "url": "https://www.youtube.com/watch?v=jmZv8kDH8fg",
+        "url": "https://www.youtube.com/embed/jmZv8kDH8fg",
         "title": "Qual é a diferença entre Marketing Digital, Marketing Conversacional e Marketing no WhatsApp?",
         "thumbnail": "https://i.ytimg.com/vi/jmZv8kDH8fg/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCfykRIQ96kv-4ZYYPCxdd6FyIYBQ",
         "category": "marketing-digital",
         "date": "2023-03-20"
       },
       {
-        "url": "https://www.youtube.com/watch?v=cywm2tV1BCQ",
+        "url": "https://www.youtube.com/embed/cywm2tV1BCQ",
         "title": "Como saber de onde vêm os leads em um futuro sem cookies?",
         "thumbnail": "https://i.ytimg.com/vi/cywm2tV1BCQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCeZWtE_bqZAFpzaQHJioyGs9_jfQ",
         "category": "leads",
         "date": "2023-03-31"
       },
       {
-        "url": "https://www.youtube.com/watch?v=G_QAY_-P2z8",
+        "url": "https://www.youtube.com/embed/G_QAY_-P2z8",
         "title": "O custo em mídia paga vai subir com a extinção dos cookies?",
         "thumbnail": "https://i.ytimg.com/vi/G_QAY_-P2z8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCp9RLVNQSf1L5c8ohtBvug9CxL-g",
         "category": "midia-paga",
         "date": "2023-04-03"
       },
       {
-        "url": "https://www.youtube.com/watch?v=y8U2omuF3aM",
+        "url": "https://www.youtube.com/embed/y8U2omuF3aM",
         "title": "Model-Market Fit: Os tipos de cliente que sua empresa pode atender",
         "thumbnail": "https://i.ytimg.com/vi/y8U2omuF3aM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDQPRF1LsqbmRLk2gyig_cm7RrWuQ",
         "category": "agencia",
         "date": "2023-03-09"
       },
       {
-        "url": "https://www.youtube.com/watch?v=GZyDCW-F69I",
+        "url": "https://www.youtube.com/embed/GZyDCW-F69I",
         "title": "O ChatGPT vai automatizar o trabalho do Copywriter?",
         "thumbnail": "https://i.ytimg.com/vi/GZyDCW-F69I/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBcDQvI3d4W7UnlgMU1FV4Z_qtkMQ",
         "category": "chatbot",
         "date": "2023-04-13"
       },
       {
-        "url": "https://www.youtube.com/watch?v=gK8uPCkka7c",
+        "url": "https://www.youtube.com/embed/gK8uPCkka7c",
         "title": "Os passos do Marketing Digital para Startups (Webinar completo)",
         "thumbnail": "https://i.ytimg.com/vi/gK8uPCkka7c/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC5q8GScwMnyh3-S1PKmXZtBTUtEQ",
         "category": "marketing-digital",
         "date": "2023-03-14"
       },
       {
-        "url": "https://www.youtube.com/watch?v=0gma7MHghnM",
+        "url": "https://www.youtube.com/embed/0gma7MHghnM",
         "title": "Por que você perde 60% dos leads usando formulários de contato no site?",
         "thumbnail": "https://i.ytimg.com/vi/0gma7MHghnM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA77Q2pDgZWUgSSZOzhZZGcVBG-TQ",
         "category": "leads",
@@ -67,63 +67,63 @@
     ],
     [
       {
-        "url": "https://www.youtube.com/watch?v=RTUv2XqBCYY",
+        "url": "https://www.youtube.com/embed/RTUv2XqBCYY",
         "title": "Como a extinção dos cookies third-party afeta os resultados de Mídia Paga?",
         "thumbnail": "https://i.ytimg.com/vi/RTUv2XqBCYY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAILnYBtkm6SUsU7F3NrRDOYt4evQ",
         "category": "midia-paga",
         "date": "2023-03-24"
       },
       {
-        "url": "https://www.youtube.com/watch?v=BDwtdx_BawA",
+        "url": "https://www.youtube.com/embed/BDwtdx_BawA",
         "title": "O que é e como funciona o ChatGPT?",
         "thumbnail": "https://i.ytimg.com/vi/BDwtdx_BawA/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBYtdqcreTD-Q_lzLGM4nRqKKjZHw",
         "category": "chatbot",
         "date": "2023-04-05"
       },
       {
-        "url": "https://www.youtube.com/watch?v=aT88TbvdPEY",
+        "url": "https://www.youtube.com/embed/aT88TbvdPEY",
         "title": "Mercado, Produto, Modelo e Canais - O Mix de variáveis do Marketing Digital",
         "thumbnail": "https://i.ytimg.com/vi/aT88TbvdPEY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAoyo65xmdXagIxi0JGhHCv4pWthA",
         "category": "marketing-digital",
         "date": "2023-03-03"
       },
       {
-        "url": "https://www.youtube.com/watch?v=H9niT1PViqs",
+        "url": "https://www.youtube.com/embed/H9niT1PViqs",
         "title": "Mídia paga para Geração de Leads - Desafios e novas estratégias",
         "thumbnail": "https://i.ytimg.com/vi/H9niT1PViqs/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLClL5bo0muAcsqZP4cPq8oT1ix5RQ",
         "category": "leads",
         "date": "2023-02-15"
       },
       {
-        "url": "https://www.youtube.com/watch?v=T33DiRoMo5c",
+        "url": "https://www.youtube.com/embed/T33DiRoMo5c",
         "title": "Como unir SEO (Search Engine Optimization) e Mídia Paga em sua estratégia de Marketing?",
         "thumbnail": "https://i.ytimg.com/vi/T33DiRoMo5c/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB33mlBbAdC_fVdGEsXK8FV8ciAGA",
         "category": "midia-paga",
         "date": "2023-02-24"
       },
       {
-        "url": "https://www.youtube.com/watch?v=fybMJv1-ZPI",
+        "url": "https://www.youtube.com/embed/fybMJv1-ZPI",
         "title": "Como é a relação do Google com o conteúdo gerado pelo ChatGPT?",
         "thumbnail": "https://i.ytimg.com/vi/fybMJv1-ZPI/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCcSSEQaSu1P4yyWv2d7qh4S96jVA",
         "category": "chatbot",
         "date": "2023-04-06"
       },
       {
-        "url": "https://www.youtube.com/watch?v=PHAfkczqlMY",
+        "url": "https://www.youtube.com/embed/PHAfkczqlMY",
         "title": "Estratégias de curto e longo prazo no Marketing Digital",
         "thumbnail": "https://i.ytimg.com/vi/PHAfkczqlMY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAHPfi1lPMZO8IZt3FlYv0A6eAAzQ",
         "category": "marketing-digital",
         "date": "2023-03-02"
       },
       {
-        "url": "https://www.youtube.com/watch?v=Qa4U7K3Mou8",
+        "url": "https://www.youtube.com/embed/Qa4U7K3Mou8",
         "title": "Captação de Leads e Atendimento - Os Desafios no Digital (Webinar completo)",
         "thumbnail": "https://i.ytimg.com/vi/Qa4U7K3Mou8/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBrG4AizCKHdz_rNjrw0W5SkuGUUQ",
         "category": "leads",
         "date": "2023-02-27"
       },
       {
-        "url": "https://www.youtube.com/watch?v=LG_3WyaiHFY",
+        "url": "https://www.youtube.com/embed/LG_3WyaiHFY",
         "title": "Como Aumentar a Geração de Leads com Mídia Paga (Webinar completo)",
         "thumbnail": "https://i.ytimg.com/vi/LG_3WyaiHFY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB-646Kj_zn1bbCquHB07SCDLzAeg",
         "category": "midia-paga",

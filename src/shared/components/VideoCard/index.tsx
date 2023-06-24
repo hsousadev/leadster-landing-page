@@ -6,15 +6,9 @@ import Play from "@/shared/assets/icons/play.svg";
 
 import { Container } from "./styles";
 
-export function VideoCard({
-  title,
-  thumbnail,
-  url,
-  category,
-  date,
-}: VideoProps) {
+export function VideoCard({ title, thumbnail, onClick }: VideoProps) {
   return (
-    <Container>
+    <Container onClick={onClick}>
       <div className="content">
         <div className="thumbnail-content">
           <img className="thumb" src={thumbnail} alt="Video Thumbnail" />

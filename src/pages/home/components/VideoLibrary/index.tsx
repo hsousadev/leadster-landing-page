@@ -3,6 +3,7 @@ import { VideoCard } from "@/shared/components/VideoCard";
 import { ShortButton } from "@/shared/components/ShortButton";
 import { SelectDateButton } from "@/shared/components/SelectDateButton";
 import { Paginate } from "@/shared/components/Paginate";
+import { VideoModal } from "@/shared/components/VideoModal";
 
 import videos from "../../../../../server/videos.json";
 
@@ -15,6 +16,8 @@ export default function VideoLibrary() {
   const [filter, setFilter] = useState("");
   const [filteredVideos, setFilteredVideos] = useState<VideoProps[]>([]);
   const [dateOrder, setDateOrder] = useState("desc");
+  const [showVideoModal, setShowVideoModal] = useState(false);
+  const [videoToPlay, setVideoToPlay] = useState<VideoProps>();
 
   function handleFiltering(category: string) {
     setFilter(category);
@@ -23,6 +26,11 @@ export default function VideoLibrary() {
       .filter((video: VideoProps) => video.category === category);
     setFilteredVideos(filteredVideos);
     setPageNumber(0);
+  }
+
+  function handlePlayVideo(video: VideoProps) {
+    setVideoToPlay(video);
+    setShowVideoModal(true);
   }
 
   useEffect(() => {
@@ -113,6 +121,7 @@ export default function VideoLibrary() {
               title={video.title}
               category={video.category}
               date={video.date}
+              onClick={() => handlePlayVideo(video)}
             />
           ))}
       </div>
@@ -122,6 +131,14 @@ export default function VideoLibrary() {
         pagesNumber={Math.ceil(filteredVideos.length / 9)}
         pageNumberActive={pageNumber}
       />
+
+      {showVideoModal && (
+        <VideoModal
+          title={videoToPlay?.title}
+          url={videoToPlay?.url}
+          setShowVideoModal={setShowVideoModal}
+        />
+      )}
     </Container>
   );
 }

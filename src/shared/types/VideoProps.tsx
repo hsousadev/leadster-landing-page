@@ -4,4 +4,5 @@ export interface VideoProps {
   thumbnail: string;
   category: string;
   date: string;
+  onClick?: () => void;
 }
