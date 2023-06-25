@@ -1,38 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Leadster · Videos landing page (Test Front)
+Repositório dedicado para aplicação do teste para Front-end Developer na Leadster. 🚀
 
-## Getting Started
+![cover-leadster-test-dev](https://github.com/justhenrique/leadster-landing-page/assets/54003876/11d0e8a8-4a6b-49d7-a26c-1f852be8a5f5)
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## 🌐 Site Online: 
+https://leadster-landing-page.vercel.app/
+
+
+### 1. Decisões tomadas:
+Como se tratava apenas de uma página, cada sessão da Home foi divida em um componente e seus sub-componentes, para facilitar em eventuais manuntenções. Como deve ser, também foi realizado a componentização de elementos que eram utilizados em mais um lugar para reaproveitamento do código. Para os vídeos, aproveitei o canal do YouTube da Leadster para criar um espécie de API em um arquivo JSON para a consulta dos dados e paginação. No site atual da empresa utilizei mais alguns complementos para ajudar no desenvolvimento deste, como links do footer, imagens svg e outros. Aplicação bem tranquila, realizada em cerca de 2 dias. 
+
+
+### 2. Como o código foi organizado:
+A página principal está anexada no index do app como Home, sendo importada de 'Pages'. Home tem seus componentes próprios, mas também utiliza de componentes compartilhados que são utilizados em outros pontos. O restante se encontra na pasta 'Shared' onde é possível encontrar todos os recursos compartilhados da aplicação organizado e categorizados em sub-pastas. 
+
+
+## 🚀 Build
+
+1. É necessário ter os seguintes requisitos pré-instalados
+- [Git](https://git-scm.com/)
+- [Node](https://nodejs.org/en/)
+
+<br />
+
+2. No seu terminal clone o repositório 
+
+```
+git clone https://github.com/justhenrique/leadster-landing-page/git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Acesse a pasta
+```
+cd leadster-landing-page
+```
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+4. Instale as dependências
+```
+npm install
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+5. Rode o site
+```
+npm run dev
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+6. O site estará disponível no localhost padrão
