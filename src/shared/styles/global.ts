@@ -6,6 +6,7 @@ export const GlobalStyles = createGlobalStyle<any>`
     --Max-content-width: 1140px;
 
     --Blue: #1B7EFF;
+    --DarkGrey: #838EAB;
     --Gray: #C8D4DD;
     --LightBlue: #F0F8FF;
     --White: #FFF;
@@ -92,7 +93,7 @@ export const GlobalStyles = createGlobalStyle<any>`
     overflow-x: hidden;
   }
 
-  h1, h2, h3, h4, p, strong {
+  h1, h2, h3, h4, p, strong, a {
     transition: all 0.2s ease-in-out;
 
     margin: 0;

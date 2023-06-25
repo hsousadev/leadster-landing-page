@@ -9,6 +9,7 @@ export const Container = styled.div`
 
   width: 100%;
   padding: 160px;
+  margin-top: 124px;
 
   .content {
     display: flex;

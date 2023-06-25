@@ -36,10 +36,12 @@ export const Container = styled.div`
       flex-direction: column;
 
       padding: 16px 24px 28px 24px;
+      width: 90%;
 
       h2 {
         text-align: center;
         font-size: 24px;
+        width: 100%;
       }
     }
 

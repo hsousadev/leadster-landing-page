@@ -1,4 +1,5 @@
 import { TopBar } from "@/shared/components/TopBar";
+import { Footer } from "@/shared/components/Footer";
 
 import Hero from "./components/Hero";
 import VideoLibrary from "./components/VideoLibrary";
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <VideoLibrary />
       <DemoSection />
+      <Footer />
     </Container>
   );
 }

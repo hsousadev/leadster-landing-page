@@ -9,7 +9,7 @@ import { Container } from "./styles";
 export default function Hero() {
   return (
     <Container>
-      <div className="content">
+      <div id="top" className="content">
         <Tag text="WEBNINARS EXCLUSIVOS" />
         <h1>Menos Conversinha,</h1>
         <Image src={MaisConversao} alt="" width={684} height={78} />
