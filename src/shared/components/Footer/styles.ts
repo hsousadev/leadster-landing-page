@@ -108,7 +108,7 @@ export const Container = styled.div`
     padding: 32px 0;
     margin-top: 72px;
 
-    border: 0.5px solid var(--Gray);
+    border-top: 1px solid var(--Gray);
 
     .bottom-content {
       display: flex;
@@ -117,11 +117,43 @@ export const Container = styled.div`
       max-width: var(--Max-content-width);
       width: 100%;
 
-      h4, a {
+      h4,
+      a {
         text-decoration: none;
         color: var(--DarkGrey);
         font-weight: 500;
       }
+    }
+  }
+
+  @media (max-width: 980px) {
+    .content {
+      flex-wrap: wrap;
+      width: auto;
+      gap: 32px;
+
+      .column {
+        gap: 16px;
+      }
+    }
+
+    .content .column .social-media,
+    .content .column .contact {
+      margin-top: 0;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .bottom .bottom-content {
+      flex-direction: column;
+      gap: 8px;
+    }
+  }
+
+  @media(max-width: 440px) {
+    .content {
+      flex-wrap: nowrap;
+      flex-direction: column;
     }
   }
 `;

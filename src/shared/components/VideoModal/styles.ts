@@ -54,7 +54,7 @@ export const Container = styled.div`
     .informations {
       display: flex;
       align-items: flex-start;
-      justify-content: center;
+      justify-content: flex-start;
       flex-direction: column;
 
       padding: 24px 28px;
@@ -82,6 +82,22 @@ export const Container = styled.div`
           gap: 4px;
         }
       }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .content,
+    .content .informations {
+      height: 90%;
+      width: 90%;
+    }
+
+    .content .head-title h2 {
+      font-size: 16px;
+    }
+
+    .content .informations .info-content .download-buttons {
+      flex-wrap: wrap;
     }
   }
 `;

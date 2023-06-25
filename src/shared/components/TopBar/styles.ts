@@ -24,4 +24,5 @@ export const Container = styled.div`
       cursor: pointer;
     }
   }
+
 `;

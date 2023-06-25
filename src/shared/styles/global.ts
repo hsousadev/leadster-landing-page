@@ -31,7 +31,7 @@ export const GlobalStyles = createGlobalStyle<any>`
       padding: 0 32px;
 
       h1 {
-        font-size: 32px;
+        font-size: 32px !important;
       }
 
       h2 {
@@ -53,7 +53,7 @@ export const GlobalStyles = createGlobalStyle<any>`
 
     @media (max-width: 540px) {
       h1 {
-        font-size: 24px;
+        font-size: 24px !important;
       }
 
       h2 {

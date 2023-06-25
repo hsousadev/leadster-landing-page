@@ -25,6 +25,7 @@ export const Container = styled.div`
     h2 {
       font-weight: 500;
       padding: 0 32px;
+      text-align: center;
 
       strong {
         font-weight: 800;
@@ -37,6 +38,25 @@ export const Container = styled.div`
       height: 1px;
       width: 100%;
       margin: 28px 0px 16px 0px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 0px;
+    border-radius: 16px;
+
+    .content {
+      padding: 64px;
+
+      h2 {
+        padding: 0px;
+        text-align: left;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
     }
   }
 `;

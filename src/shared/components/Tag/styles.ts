@@ -14,5 +14,6 @@ export const Container = styled.div`
     color: var(--Blue);
     font-weight: 700;
     text-transform: uppercase;
+    white-space: nowrap;
   }
 `;

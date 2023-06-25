@@ -2,20 +2,21 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
 
   background-color: var(--LightBlue);
 
   width: 100%;
   margin-bottom: 48px;
+  padding: 0 160px;
 
   .content {
     display: flex;
     align-items: center;
     justify-content: center;
 
-    padding: 64px 0 0 0;
+    padding: 64px 0;
     z-index: 1;
     gap: 88px;
 
@@ -46,7 +47,6 @@ export const Container = styled.div`
         gap: 16px;
 
         padding: 24px 0;
-        width: 620px;
         border-top: 2px solid var(--Gray);
       }
 
@@ -64,8 +64,39 @@ export const Container = styled.div`
   }
 
   .frame-design {
+    display: flex;
     position: absolute;
     left: -610px;
+  }
+
+  @media (max-width: 1232px) {
+    .content {
+      flex-direction: column;
+      > img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .frame-design {
+      display: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding: 0;
+    border-radius: 16px;
+
+    .content {
+      gap: 16px;
+      padding: 16px;
+
+      .texts .middle,
+      .texts .bottom {
+        flex-direction: column;
+        gap: 16px;
+      }
+    }
   }
 `;
 

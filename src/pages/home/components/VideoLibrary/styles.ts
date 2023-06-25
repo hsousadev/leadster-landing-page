@@ -33,6 +33,7 @@ export const Container = styled.div`
         display: flex;
         align-items: center;
         justify-content: flex-start;
+        flex-wrap: wrap;
 
         gap: 16px;
       }
@@ -63,6 +64,21 @@ export const Container = styled.div`
     border-top: 2px solid var(--Gray);
 
     margin-bottom: 40px;
+  }
+
+  @media (max-width: 1200px) {
+    .head-filters {
+      flex-direction: column;
+      gap: 16px;
+
+      .date {
+        flex-direction: column;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    margin: 64px 0;
   }
 `;
 

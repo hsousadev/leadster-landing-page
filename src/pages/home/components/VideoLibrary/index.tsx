@@ -5,6 +5,8 @@ import { SelectDateButton } from "@/shared/components/SelectDateButton";
 import { Paginate } from "@/shared/components/Paginate";
 import { VideoModal } from "@/shared/components/VideoModal";
 
+import smoothScroll from "@/shared/utils/smoothScroll";
+
 import videos from "../../../../../server/videos.json";
 
 import { Container } from "./styles";
@@ -62,9 +64,13 @@ export default function VideoLibrary() {
     setPageNumber(0);
   }, [dateOrder]);
 
+  useEffect(() => {
+    smoothScroll("head-filters");
+  }, [pageNumber]);
+
   return (
     <Container>
-      <div className="head-filters">
+      <div id="head-filters" className="head-filters">
         <div className="filters">
           <div className="buttons">
             <ShortButton

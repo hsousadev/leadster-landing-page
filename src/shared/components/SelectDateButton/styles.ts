@@ -48,4 +48,10 @@ export const Container = styled.div`
       }
     }
   }
+
+  @media (max-width: 1200px) {
+    .content {
+      align-items: flex-start;
+    }
+  }
 `;
