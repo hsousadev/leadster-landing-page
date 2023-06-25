@@ -45,7 +45,6 @@ export const Container = styled.button`
 
       h2 {
         text-align: start;
-        color: var(--FontColor);
       }
     }
   }

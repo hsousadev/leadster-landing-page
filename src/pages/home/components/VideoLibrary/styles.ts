@@ -44,7 +44,6 @@ export const Container = styled.div`
 
       > h3 {
         margin-top: 8px;
-        color: var(--FontColor);
       }
     }
   }

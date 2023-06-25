@@ -16,7 +16,6 @@ export const Container = styled.div`
     h3 {
       font-weight: 500;
       font-size: 16px;
-      color: var(--FontColor);
     }
   }
 

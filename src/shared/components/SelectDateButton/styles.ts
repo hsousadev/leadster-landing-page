@@ -20,7 +20,6 @@ export const Container = styled.div`
 
       h3 {
         font-weight: 500;
-        color: var(--FontColor);
       }
     }
 
@@ -29,7 +28,6 @@ export const Container = styled.div`
       padding: 8px 16px;
       border-radius: 8px;
 
-      color: var(--FontColor);
       border: 1px solid var(--FontColor);
     }
 

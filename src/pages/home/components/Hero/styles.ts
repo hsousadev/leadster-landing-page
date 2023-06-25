@@ -17,13 +17,11 @@ export const Container = styled.div`
     flex-direction: column;
 
     h1 {
-      color: var(--FontColor);
       font-weight: 400;
       margin-bottom: 8px;
     }
 
     h2 {
-      color: var(--FontColor);
       font-weight: 500;
       padding: 0 32px;
 

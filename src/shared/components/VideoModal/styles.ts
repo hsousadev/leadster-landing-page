@@ -14,6 +14,8 @@ export const Container = styled.div`
   top: 0;
   left: 0;
 
+  z-index: 2;
+
   .content {
     display: flex;
     align-items: center;
@@ -38,7 +40,6 @@ export const Container = styled.div`
       h2 {
         text-align: center;
         font-size: 24px;
-        color: var(--FontColor);
       }
     }
 
@@ -62,14 +63,12 @@ export const Container = styled.div`
         h3.title {
           width: 100%;
 
-          color: var(--FontColor);
           border-bottom: 1px solid var(--FontColor);
           padding-bottom: 4px;
           margin-bottom: 8px;
         }
 
         h3.description {
-          color: var(--FontColor);
           font-weight: 500;
           margin-bottom: 24px;
         }

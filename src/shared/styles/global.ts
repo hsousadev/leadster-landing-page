@@ -99,6 +99,7 @@ export const GlobalStyles = createGlobalStyle<any>`
     font-family: 'Plus Jakarta Sans', sans-serif;
     font-style: normal;
     letter-spacing: -0.32px;
+    color: var(--FontColor);
   }
 
   h1 {

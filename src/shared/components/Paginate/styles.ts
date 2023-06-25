@@ -8,7 +8,6 @@ export const Container = styled.div`
   gap: 8px;
 
   strong {
-    color: var(--FontColor);
     font-size: 24px;
     font-weight: 500;
     letter-spacing: -0.48px;
